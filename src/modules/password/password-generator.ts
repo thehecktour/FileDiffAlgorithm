@@ -3,8 +3,8 @@ import { PokemonApi } from "../pokemon/pokemon-api";
 export class PasswordGenerator {
 
   private generateRandomNumber(){
-      const number = Math.floor(Math.random() * 500);
-      return number;
+    const number = Math.floor(Math.random() * 500);
+    return number;
   }
 
   public async generatePassword(): Promise<string> {
